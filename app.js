@@ -13,7 +13,7 @@ btnHome.onclick = ()=>{
     h2about.style.color = 'white';
     h2services.style.color = 'white';
      pageServices.classList.contains('shown') ?    pageServices.classList.remove('shown'):null;
-     pageServices.classList.contains('hidden') ?    null: pageServices.classList.add('hidden');
+     pageServices.classList.contains('hidden') ?   null: pageServices.classList.add('hidden');
      pageAbout.classList.contains('shown') ?    pageAbout.classList.remove('shown'):null;
      pageAbout.classList.contains('hidden') ?    null: pageAbout.classList.add('hidden');
      pageHome.classList.contains('hidden') ?    pageHome.classList.remove('hidden'):null;
